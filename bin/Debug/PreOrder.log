@@ -1,0 +1,144 @@
+
+101; 15.01.2021 22:34:42; NoName; NoDomen; --- Ошибка: ;возникло исключение:
+ Отсутствует соединение с сервером 
+ === Message: Exception while connecting
+ === Exception: Npgsql.NpgsqlException (0x80004005): Exception while connecting ---> System.TimeoutException: Timeout during connection attempt
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 676
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 693
+   в Npgsql.NpgsqlConnector.<RawOpen>d__152.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 618
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<Open>d__148.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 423
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 297
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.Open() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 119
+   в Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   в Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   в Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   в ScreenClient.ApplicationContext..ctor() в D:\ScreenClient\DbPreOrder.cs:строка 451
+
+101; 11.02.2021 22:34:35; NoName; NoDomen; --- Ошибка: ;возникло исключение:
+ Отсутствует соединение с сервером 
+ === Message: Exception while connecting
+ === Exception: Npgsql.NpgsqlException (0x80004005): Exception while connecting ---> System.TimeoutException: Timeout during connection attempt
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 676
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 693
+   в Npgsql.NpgsqlConnector.<RawOpen>d__152.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 618
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<Open>d__148.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 423
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 297
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.Open() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 119
+   в Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   в Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   в Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   в ScreenClient.ApplicationContext..ctor() в D:\ScreenClient\DbPreOrder.cs:строка 451
+
+101; 26.03.2021 11:01:58; NoName; NoDomen; --- Ошибка: ;возникло исключение:
+ Отсутствует соединение с сервером 
+ === Message: Exception while connecting
+ === Exception: Npgsql.NpgsqlException (0x80004005): Exception while connecting ---> System.TimeoutException: Timeout during connection attempt
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 676
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 693
+   в Npgsql.NpgsqlConnector.<RawOpen>d__152.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 618
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<Open>d__148.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 423
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 297
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.Open() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 119
+   в Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   в Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   в Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   в ScreenClient.ApplicationContext..ctor() в D:\ScreenClient\DbPreOrder.cs:строка 451
+
+101; 14.04.2021 01:07:10; NoName; NoDomen; --- Ошибка: ;возникло исключение:
+ Отсутствует соединение с сервером 
+ === Message: Exception while connecting
+ === Exception: Npgsql.NpgsqlException (0x80004005): Exception while connecting ---> System.TimeoutException: Timeout during connection attempt
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 676
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 693
+   в Npgsql.NpgsqlConnector.<RawOpen>d__152.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 618
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<Open>d__148.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 423
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 297
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.Open() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 119
+   в Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   в Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   в Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   в ScreenClient.ApplicationContext..ctor() в D:\ScreenClient\DbPreOrder.cs:строка 513
+
+101; 28.04.2021 10:45:24; NoName; NoDomen; --- Ошибка: ;возникло исключение:
+ Отсутствует соединение с сервером 
+ === Message: Exception while connecting
+ === Exception: Npgsql.NpgsqlException (0x80004005): Exception while connecting ---> System.TimeoutException: Timeout during connection attempt
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 676
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 693
+   в Npgsql.NpgsqlConnector.<RawOpen>d__152.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 618
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<Open>d__148.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 423
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 297
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.Open() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 119
+   в Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   в Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   в Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   в ScreenClient.ApplicationContext..ctor() в D:\ScreenClient\DbPreOrder.cs:строка 513
+
+101; 28.04.2021 10:45:57; NoName; NoDomen; --- Ошибка: ;возникло исключение:
+ Отсутствует соединение с сервером 
+ === Message: Exception while connecting
+ === Exception: Npgsql.NpgsqlException (0x80004005): Exception while connecting ---> System.TimeoutException: Timeout during connection attempt
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 676
+   в Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 693
+   в Npgsql.NpgsqlConnector.<RawOpen>d__152.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 618
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<Open>d__148.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:строка 423
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 297
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnection.Open() в C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:строка 119
+   в Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   в Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   в Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   в ScreenClient.ApplicationContext..ctor() в D:\ScreenClient\DbPreOrder.cs:строка 513
